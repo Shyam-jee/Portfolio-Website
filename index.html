@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shyam Jee | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Shyam Jee</div>
+        <nav id="nav-menu" class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </header>
+
+    <section id="home">
+        <h1>Hello, I'm <span>Shyam Jee</span></h1>
+        <p>Frontend Web Developer | Passionate about building interactive websites</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="assets/profile.jpg" alt="Shyam Jee" class="profile-img">
+            <p>Hello! I'm <strong>Shyam Jee</strong>, a passionate frontend web developer with a strong foundation in HTML, CSS, and JavaScript. I specialize in building interactive, responsive web applications with clean and efficient code.</p>
+            <p>I love learning new technologies, contributing to projects, and solving real-world problems through coding. My goal is to build scalable and high-performance web solutions.</p>
+            <a href="assets/ShyamJee__Resume.pdf" download class="btn">Download Resume</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">HTML5</div>
+            <div class="skill-card">CSS3</div>
+            <div class="skill-card">JavaScript (ES6+)</div>
+            <div class="skill-card">Java</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">Tkinter</div>
+            <div class="skill-card">Git & GitHub</div>
+            <div class="skill-card">C</div>
+            <div class="skill-card">C++</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="assets/ToDo_app.png" alt="ToDo App">
+                <h3>ToDo App</h3>
+                <p>A simple and responsive ToDo application using HTML, CSS, and JavaScript.</p>
+                <a href="https://shyam-jee.github.io/ToDo-App/" target="_blank">Live Demo</a> |
+                <a href="https://github.com/shyam-jee/ToDo-App" target="_blank">GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/Scientific_calculator.png" alt="Scientific Calculator">
+                <h3>Scientific Calculator</h3>
+                <p>A calculator that handles both simple, base calculation and BMI calculation with an interactive GUI.</p>
+                <a href="https://github.com/shyam-jee/Scientific-Calculator" target="_blank">GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/EncryptoPad.png" alt="EncryptoPad">
+                <h3>EncryptoPad</h3>
+                <p>A secure notepad that lets users write and encrypt text. Built with JavaScript and cipher algorithm.</p>
+                <a href="https://github.com/shyam-jee/EncryptoPad" target="_blank">GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/portfolio_img.png" alt="Portfolio Website">
+                <h3>Portfolio Website</h3>
+                <p>This personal portfolio you're seeing now! Built with HTML, CSS, and JavaScript to showcase my projects and skills.</p>
+                <a href="https://shyam-jee.github.io/Portfolio-Website/" target="_blank">Live Demo</a> |
+                <a href="https://github.com/shyam-jee/Portfolio-Website" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form" action="https://formspree.io/f/mwpqloea" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Purpose of Contact / Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="status-msg"></p>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 Shyam Jee. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/shyam-jee" target="_blank">GitHub</a> |
+                <a href="https://www.linkedin.com/in/shyam-jee/" target="_blank">LinkedIn</a> |
+                <a href="https://leetcode.com/u/Shyam_jee_/" target="_blank">LeetCode</a> |
+                <a href="https://www.geeksforgeeks.org/user/shyamjeekusr/?ref=header_profile" target="_blank">GeeksforGeeks</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
